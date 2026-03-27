@@ -1,0 +1,1 @@
+idf_component_register(SRCS "main.c" "hx711.c" "lcd_i2c.c" INCLUDE_DIRS ".")

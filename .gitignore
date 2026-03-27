@@ -1,0 +1,14 @@
+# Arquivos de compilação do ESP-IDF
+build/
+sdkconfig
+sdkconfig.old
+
+# Arquivos de IDE (VS Code / PlatformIO)
+.vscode/
+.pio/
+.clang-format
+node_modules/
+
+# Arquivos do Sistema
+.DS_Store
+Thumbs.db
