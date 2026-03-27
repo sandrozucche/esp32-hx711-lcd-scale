@@ -70,7 +70,9 @@ Para obter leituras precisas, você deve ajustar o calibration_factor no arquivo
 
 Se a leitura for diferente de 500g, aplique a fórmula:
 
-$$\text{Novo Fator} = \frac{\text{Leitura Atual} \times \text{Fator Atual}}{\text{Peso Real}}$$
+> **Fórmula de Calibração:**
+> 
+> `Novo Fator = (Leitura Atual * Fator Atual) / Peso Real`
 
 Atualize a variável calibration_factor no código e faça o upload novamente.
 
