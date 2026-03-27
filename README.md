@@ -41,10 +41,9 @@ O projeto está sendo executado em etapas para garantir que a integração entre
 * Atualização dinâmica do peso e status no display LCD.
 * Gestão de Erros: Detecção de falha de comunicação com o sensor via log e display.
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
-Plaintext
-
+```text
 ├── main/
 │   ├── main.c           # Lógica da aplicação e loop principal
 │   ├── hx711.c / .h     # Driver do sensor de peso (Protocolo 24-bit)
